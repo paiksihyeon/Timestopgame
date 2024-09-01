@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('/static/base.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    color: black;
+}
+
+.timer {
+    font-size: 7em;
+    margin-bottom: 20px;
+}
+
+.result {
+   font-size: 5em
+}
+
+.method{
+    font-size: 2em
+}
+
+.success {
+    color: green;
+        font-size: 2em
+}
+
+.fail {
+    color: red;
+    font-size: 2em
+}
