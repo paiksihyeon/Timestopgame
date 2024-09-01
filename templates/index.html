@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Stop Game</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-image: url('/static/base.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            color: black;
+        }
+        .timer {
+            font-size: 7em;
+            margin-bottom: 20px;
+        }
+        .result {
+            font-size: 5em
+        }
+        .method{
+            font-size: 2em
+        }
+        .success {
+            color: green;
+            font-size: 2em
+        }
+        .fail {
+            color: red;
+            font-size: 2em
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="timer" id="timer">0.00</div>
+        <div class="result" id="result"></div>
+        <p class="method">스페이스바를 눌러 5.5초를 맞추세요!!!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
