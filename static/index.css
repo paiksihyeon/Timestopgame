@@ -6,6 +6,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('/static/base.png');
     background-size: contain;
+    /*background-size: cover;*/
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
@@ -13,7 +14,7 @@ body {
 
 .container {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .timer {

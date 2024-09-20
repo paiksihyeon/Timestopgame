@@ -48,7 +48,7 @@ function checkResult() {
     const timeInSeconds = (elapsedTime / 1000).toFixed(2);
     const resultElement = document.getElementById('result');
     const targetTime = 5.5;
-    const tolerance = 1.00;
+    const tolerance = 0.00; //추가 시간
 
     if (Math.abs(timeInSeconds - targetTime) <= tolerance) {
         resultElement.textContent = '성공! 상품을 받아가세요!!!';
