@@ -13,12 +13,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
-    animation: bg-blink 3s infinite alternate;
 }
 
 .container {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .timer {
@@ -41,125 +40,3 @@ body {
 .fail {
     color: red;
 }
-
-/* 네온 텍스트 애니메이션 */
-.neon-text {
-  font-family: 'Monoton', cursive;
-  color: #FFC107; /* 밝은 노란색 (#FFC107) */
-  text-shadow:
-    0 0 5px #FFC107,
-    0 0 10px #FFC107,
-    0 0 20px #FFC107,
-    0 0 40px #FFEB3B,
-    0 0 80px #FFEB3B,
-    0 0 120px #FFEB3B;
-  animation: neon 4s infinite alternate; /* 깜밖이는 속도 조절 */
-}
-
-@keyframes neon {
-  0%, 100% {
-    text-shadow:
-      0 0 5px #FFC107,
-      0 0 10px #FFC107,
-      0 0 20px #FFC107,
-      0 0 40px #FFEB3B,
-      0 0 80px #FFEB3B,
-      0 0 120px #FFEB3B;
-    color: #FFC107;
-  }
-  50% {
-    text-shadow: 
-      0 0 5px #222, 
-      0 0 10px #222, 
-      0 0 20px #222, 
-      0 0 40px #000, 
-      0 0 80px #000, 
-      0 0 120px #000;
-    color: #222;
-  }
-}
-
-/* 성공 - 그린 네온 효과 */
-.green-neon-text {
-  font-family: 'Monoton', cursive;
-  font-size: 4em;
-  color: #8BC34A; /* 그린 색상 */
-  text-shadow:
-    0 0 5px #8BC34A,
-    0 0 10px #8BC34A,
-    0 0 20px #8BC34A,
-    0 0 40px #AED581, /* 밝은 그린 */
-    0 0 80px #AED581,
-    0 0 120px #AED581,
-    0 0 200px #AED581,
-    0 0 300px #7CB342; /* 진한 그린 */
-  animation: green-neon-blink 4s infinite alternate;
-}
-
-/* 실패 - 핑크 네온 효과 */
-.pink-neon-text {
-  font-family: 'Monoton', cursive;
-  font-size: 4em;
-  color: #E91E63; /* 핑크 색상 */
-  text-shadow:
-    0 0 5px #E91E63,
-    0 0 10px #E91E63,
-    0 0 20px #E91E63,
-    0 0 40px #F06292, /* 밝은 핑크 */
-    0 0 80px #F06292,
-    0 0 120px #F06292,
-    0 0 200px #F06292,
-    0 0 300px #D81B60; /* 진한 핑크 */
-  animation: pink-neon-blink 4s infinite alternate;
-}
-
-/* 그린 네온 애니메이션 *//*
-
-@keyframes green-neon-blink {
-  0%, 100% {
-    text-shadow:
-      0 0 5px #8BC34A,
-      0 0 10px #8BC34A,
-      0 0 20px #8BC34A,
-      0 0 40px #AED581,
-      0 0 80px #AED581,
-      0 0 120px #AED581,
-      0 0 200px #AED581,
-      0 0 300px #7CB342;
-    color: #8BC34A;
-  }
-  50% {
-    text-shadow:
-      0 0 5px #222,
-      0 0 10px #222,
-      0 0 20px #222,
-      0 0 40px #000;
-    color: #222;
-  }
-}
-
-*/
-/* 핑크 네온 애니메이션 *//*
-
-@keyframes pink-neon-blink {
-  0%, 100% {
-    text-shadow:
-      0 0 5px #E91E63,
-      0 0 10px #E91E63,
-      0 0 20px #E91E63,
-      0 0 40px #F06292,
-      0 0 80px #F06292,
-      0 0 120px #F06292,
-      0 0 200px #F06292,
-      0 0 300px #D81B60;
-    color: #E91E63;
-  }
-  50% {
-    text-shadow:
-      0 0 5px #222,
-      0 0 10px #222,
-      0 0 20px #222,
-      0 0 40px #000;
-    color: #222;
-  }
-}*/
