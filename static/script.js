@@ -18,7 +18,7 @@ document.addEventListener('keydown', function(event) {
 
 function startTimer() {
     startTime = Date.now() - elapsedTime;
-    timerInterval = setInterval(updateTimer, 10);
+    timerInterval = setInterval(updateTimer, 50);
     isRunning = true;
     isStopped = false;
 
