@@ -62,7 +62,7 @@ function updateTimer() {
 function checkResult() {
     const timeInSeconds = (elapsedTime / 1000).toFixed(2);
     const resultElement = document.getElementById('result');
-    const targetTime = 5.55;
+    const targetTime = 11.11;
     const tolerance = 0.00; // 추가 시간
 
     if (Math.abs(timeInSeconds - targetTime) <= tolerance) {
