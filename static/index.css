@@ -32,11 +32,3 @@ body {
 .method {
     font-size: 3.5em;
 }
-
-.success {
-    color: green;
-}
-
-.fail {
-    color: red;
-}

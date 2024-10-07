@@ -5,7 +5,7 @@ let isRunning = false;
 let isStopped = false;
 
 document.addEventListener('keydown', function(event) {
-    if (event.code === 'Space') {
+    if (event.code === 'Enter') {
         if (!isRunning && !isStopped) {
             startTimer();
         } else if (isRunning) {
